@@ -1,1 +1,17 @@
 Upute za pokretanje
+
+1. Potrebno je provjeriti je li instaliran Python (u ovom slučaju Python3)
+          python3 --version
+
+- ukoliko nije instaliran Python (Python3) potrebno ga je instalirati
+ 2. Potrebno je i instalirati paket cryptography
+- za to je potrebno unutar projektnog foldera napraviti virtualno okruženje
+Na primjer: python3 -m venv venv
+Pokrenuti to okruženje: source venv/bin/activate
+Unutar njega instalirati paket: pip install cryptography
+
+Pokretanje Python datoteke: python3 digitalni_potpis.py
+
+# Unutar ove zip datoteke nalazi se i tekstualni dokument test.txt koji se može odabrati kao primjer za isprobavanje funkcionalnosti projekta.
+
+
